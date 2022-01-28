@@ -112,7 +112,7 @@ class PictureWidget extends StatelessWidget {
         alignment: Alignment.center,
         transform: Matrix4.rotationY(pi),
         child: Image.asset(
-          "assets/pic.png",
+          "assets/pict.jpeg",
           fit: BoxFit.cover,
           height: context.percentHeight * 30,
         ),
