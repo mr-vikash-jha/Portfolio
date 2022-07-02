@@ -76,7 +76,7 @@ class IntroductionWidget extends StatelessWidget {
         [
           " - Introduction".text.gray500.widest.sm.make(),
           10.heightBox,
-          "@googledevexpert for flutter, firebase, dart & web, React Native & React Js. \n Blogger & YouTuber"
+          "@expert for flutter, firebase, dart & web, React Native & React Js. \n Blogger & YouTuber"
               .text
               .white
               .xl3
@@ -140,6 +140,13 @@ class SocialAccounts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return [
+      Icon(
+        AntDesign.linkedin_square,
+        color: Colors.white,
+      ).mdClick(() {
+        launch("https://www.linkedin.com/in/vikash-jha-66b136129/");
+      }).make(),
+      20.widthBox,
       Icon(
         AntDesign.twitter,
         color: Colors.white,

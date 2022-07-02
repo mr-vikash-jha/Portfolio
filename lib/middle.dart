@@ -23,10 +23,10 @@ class MiddleScreen extends StatelessWidget {
           Expanded(
             child: VxSwiper(
               items: [
-                ProjectWidget(title: "Frontier Wallet"),
+                ProjectWidget(title: "PharmEasy"),
                 ProjectWidget(title: "socInvest"),
                 ProjectWidget(title: "Mitra"),
-                ProjectWidget(title: "Click2Chat"),
+                ProjectWidget(title: "SynoVein"),
                 ProjectWidget(title: "QArt Fashion"),
               ],
               height: 170,
